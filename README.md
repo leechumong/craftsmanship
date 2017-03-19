@@ -5,7 +5,7 @@
 - [Kafka](#kafka)
 
 ## Kafka
-    - Distributed streaming platform
+- Distributed streaming platform
     - Description:
         - Real-time data pipelines
         - Publish and subscribe to streams of records.
