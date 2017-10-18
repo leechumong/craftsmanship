@@ -3,6 +3,7 @@
 ## Table of Contents
 
 - [Kafka](#kafka)
+- [pip](#pip)
 
 ## Kafka
 - Distributed streaming platform
@@ -13,3 +14,7 @@
         - For each topic, the Kafka cluster maintains a partitioned log
     - Refercences
         - https://kafka.apache.org/intro
+
+## pip
+- pip는 파이썬으로 작성된 패키지 소프트웨어를 설치 · 관리하는 패키지 관리 시스템 이다. 
+- pip install docker-compose
