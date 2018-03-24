@@ -3,7 +3,7 @@
 ## Table of Contents
 
 - [algorithm](#algorithm)
-- [dynamic programming](#dynamic programming)
+- [dynamic-programming](#dynamic-programming)
 - [Kafka](#kafka)
 - [pip](#pip)
 
