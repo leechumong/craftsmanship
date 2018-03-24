@@ -2,8 +2,20 @@
 
 ## Table of Contents
 
+- [algorithm](#algorithm)
+-- [dynamic programming](#dynamic programming)
 - [Kafka](#kafka)
 - [pip](#pip)
+
+
+
+## algorithm
+
+### dynamic programming
+- solve sub-problem
+- store and reuse result
+- bottom up
+
 
 ## Kafka
 - Distributed streaming platform
