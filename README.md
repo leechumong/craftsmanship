@@ -4,10 +4,9 @@
 
 - [algorithm](#algorithm)
 - [dynamic-programming](#dynamic-programming)
+- [Java](#java)
 - [Kafka](#kafka)
 - [pip](#pip)
-
-
 
 ## algorithm
 
@@ -16,6 +15,13 @@
 - store and reuse result
 - bottom up
 
+## Java
+    - Stream processing : 스트림이란 한 번에 한 개씩 만들어지는 연속적인 데이터 항목들의 모임
+    - Stream API가 조립라인처럼 어떤 항목을 연속적으로 제공하는 어떤 기능이라고 단순하게 생각
+    - Behavior parameterization(동작 파라미터화) : 메서드를 다른 메서드의 인수로 넘겨주는 기능을 제공
+    - 함수형 프로그래밍 패러다임의 핵심적인 사항
+        - no shared mutable data (공유되지 않은 가변 데이터)
+        - 메서드와 함수 코드를 다른 메서드로 전달
 
 ## Kafka
 - Distributed streaming platform
