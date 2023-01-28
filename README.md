@@ -8,12 +8,18 @@
 - [Kafka](#kafka)
 - [pip](#pip)
 
-## algorithm
+## Algorithm
 
 ### dynamic programming
-- solve sub-problem
-- store and reuse result
+- solve sub-problem and apply main-problem (main problem - sub problem - sub sub problem)
+- memorization - store and reuse result 
 - bottom up
+- use array table dp[i] or dp[i][j] for sub-problem
+
+### back tracking
+- Define Decision space -> Search -> Back Tracking
+- def bt(output, problem, index) 
+
 
 ## Java
     - Stream processing : 스트림이란 한 번에 한 개씩 만들어지는 연속적인 데이터 항목들의 모임
