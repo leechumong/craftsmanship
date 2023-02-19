@@ -72,6 +72,6 @@
 ## reactive-programing
 - 데이터의 흐름을 먼저 정의하고 데이터가 변경되었을 때 연관된 작업이 실행
 - WebFlux는 쉽게 쓰기 위해 Reactive Streams 라이브러리를 기반으로 만들어진 구현체
--- WebFlux -> Reactive Streams가 적용된 stream (비동기 단일스레드 동작)
--- Servlet MVC -> Reactive Streams가 적용된 stream (멀티 스레디 방식)
+    - WebFlux -> Reactive Streams가 적용된 stream (비동기 단일스레드 동작)
+    - Servlet MVC -> Reactive Streams가 적용된 stream (멀티 스레디 방식)
 - 비동기로 처리 가능하며 변경이 일어나면 이벤트 기반으로 프로그램을 구성하기 위한 라이브러리
