@@ -30,6 +30,7 @@ backtracking(candidates, decisionSpace, start) {
 
         // avoid duplicate decison space
         if (i != start && candidates[i] == candidates[i - 1]) { continue; }
+        
         decisionSpace.add(candidates[i]);
         backtracking(candidates, decisionSpace, i++);
         decisionSpace.remove(lastIndex);
