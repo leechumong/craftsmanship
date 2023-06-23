@@ -19,7 +19,23 @@
 
 ### back tracking
 - Define Decision space -> Search -> Back Tracking
-- def bt(output, problem, index) 
+- decision space는 모든 경우의 수를 의미 (a|b|c)
+- def bt(output, problem, index)
+```java //
+// for => decision space
+// recursive => backtracking
+backtracking(candidates, decisionSpace, start) {
+    for(int i = start; i< candidates.length; i++) {
+        // return result
+
+        // avoid duplicate decison space
+        if (i != start && candidates[i] == candidates[i - 1]) { continue; }
+        decisionSpace.add(candidates[i]);
+        backtracking(candidates, decisionSpace, i++);
+        decisionSpace.remove(lastIndex);
+    }
+}
+```
 
 
 ## Java
