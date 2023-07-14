@@ -92,21 +92,6 @@ backtracking(candidates, decisionSpace, start) {
     });
     ```
 
-    - binary search
-    ```
-     public boolean binarySearch(int[] matrix, int s, int e, int target) {
-        while (s <= e) {
-            int mid = s + (e - s) / 2;
-
-            if (matrix[mid] == target) return true;
-            else if (target < matrix[mid]) e = mid - 1;
-            else s = mid + 1;
-        }
-
-        return false;
-    }
-    ```
-
 
 
         
