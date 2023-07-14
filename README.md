@@ -62,6 +62,38 @@ backtracking(candidates, decisionSpace, start) {
         - String은 불변이라 덧셈 연산자를 이용해 String 인스턴스의 문자열을 결합하면, 내용이 합쳐진 새로운 String 인스턴스를 생성하게 되어, 문자열을 많이 결합할수록 공간의 낭비뿐만 아니라 속도 또한 매우 느려지게 된다는 단점이 있다
         - StringBuffer/StringBuilder 클래스는 문자열 연산 등으로 기존 객체의 공간이 부족하게 되는 경우, 기존의 버퍼 크기를 늘리면 유연하게 동작합니다.
         - StringBuffer는 각 메서드별로 Synchronized Keyword가 존재하여, 멀티스레드 환경에서도 동기화를 지원하고 StringBuilder는 동기화를 보장하지 않음.
+
+    - sort
+        - compare (o1, o2)가 음수를 리턴하면 o1이 o2보다 왼쪽에 위치한다.
+        - compare (o1, o2)가 양수를 리턴하면 o1이 o2보다 오른쪽에 위치한다.
+    ```
+    List<String> words
+    words.sort(new Comparator<String>() {
+        @Override
+        public int compare(String o1, String o2) {
+            if (o1.length() == o2.length()) return 0;
+            return o1.length() > o2.length() ? -1 : 1;
+        }
+    });
+    ```
+
+    - binary search
+    ```
+     public boolean binarySearch(int[] matrix, int s, int e, int target) {
+        while (s <= e) {
+            int mid = s + (e - s) / 2;
+
+            if (matrix[mid] == target) return true;
+            else if (target < matrix[mid]) e = mid - 1;
+            else s = mid + 1;
+        }
+
+        return false;
+    }
+    ```
+
+
+
         
 
 
