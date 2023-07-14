@@ -38,6 +38,21 @@ backtracking(candidates, decisionSpace, start) {
 }
 ```
 
+### binary search
+```
+ public boolean binarySearch(int[] matrix, int s, int e, int target) {
+        while (s <= e) {
+            int mid = s + (e - s) / 2;
+
+            if (matrix[mid] == target) return true;
+            else if (target < matrix[mid]) e = mid - 1;
+            else s = mid + 1;
+        }
+
+        return false;
+    }
+```
+
 
 ## Java
     - Stream processing : 스트림이란 한 번에 한 개씩 만들어지는 연속적인 데이터 항목들의 모임
