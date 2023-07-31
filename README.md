@@ -93,9 +93,9 @@ backtracking(candidates, decisionSpace, start) {
     });
     ```
 - static 키워드
-static 변수, 메서드는 static 영역에 할당, 고정된 메모리를 사용.
-새로 생성되는 객체들은 heap 영역에 할당, GC 대상
-inner class를 static으로 만들어야 하는 이유 - 외부클래스 없이 생성이 가능하며, static을 사용하지 않으면 외부 클래스의 내부 참조로 인해 gc 대상이 되질 않음.
+    - static 변수, 메서드는 static 영역에 할당, 고정된 메모리를 사용.
+    - 새로 생성되는 객체들은 heap 영역에 할당, GC 대상
+    - inner class를 static으로 만들어야 하는 이유 - 외부클래스 없이 생성이 가능하며, static을 사용하지 않으면 외부 클래스의 내부 참조로 인해 gc 대상이 되질 않음.
 
 
 ## Pattern
